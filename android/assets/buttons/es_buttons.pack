@@ -1,0 +1,40 @@
+
+es_buttons.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+backBtn
+  rotate: false
+  xy: 1, 103
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+startBtn
+  rotate: false
+  xy: 1, 1
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+startBtn_pressed
+  rotate: false
+  xy: 303, 103
+  size: 300, 100
+  orig: 300, 100
+  offset: 0, 0
+  index: -1
+fireBtn
+  rotate: false
+  xy: 303, 37
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+fireBtn_pressed
+  rotate: false
+  xy: 605, 139
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
