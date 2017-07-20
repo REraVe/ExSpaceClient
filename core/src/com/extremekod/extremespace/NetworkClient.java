@@ -42,10 +42,10 @@ public class NetworkClient {
             System.out.println(TAG + ". Подключение к серверу установлено");
         }
         catch (IOException e) {
-            e.printStackTrace();
+            MULTIPLAYER = false;
         }
 
-        if (newSocket == null) {
+        if (newSocket != null) {
             client = new NetworkClient(newSocket);
         }
 
